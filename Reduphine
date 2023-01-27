@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nossos Produtos</title>
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+  <header>
+    <h1>Loja de Produtos</h1>
+    <nav>
+      <ul>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#sobre">Sobre nós</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="produtos">
+    <h2>Nossos Produtos</h2>
+    <ul>
+      <li>
+        <h3>Produto 1</h3>
+        <img src="produto1.jpg" alt="Produto 1">
+        <p>Descrição do produto 1</p>
+        <button>Comprar</button>
+      </li>
+      <li>
+        <h3>Produto 2</h3>
+        <img src="produto2.jpg" alt="Produto 2">
+        <p>Descrição do produto 2</p>
+        <button>Comprar</button>
+      </li>
+      <!-- Adicione mais itens aqui -->
+    </ul>
+  </section>
+  <section id="sobre">
+    <h2>Sobre nós</h2>
+    <p>Informações sobre a sua loja e seus valores.</p>
+  </section>
+  <section id="contato">
+    <h2>Contato</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem"></textarea>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+  <footer>
+    <p>Copyright © 2021 Loja de Produtos</p>
+  </footer>
+</body>
+</html>
